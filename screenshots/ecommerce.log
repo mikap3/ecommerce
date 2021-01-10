@@ -1,0 +1,49 @@
+2021-01-10 13:09:48.527  INFO 7400 --- [main] c.u.j.c.ecommerce.EcommerceApplication   : Starting EcommerceApplication using Java 15.0.1 on SURFACE with PID 7400 (C:\Users\micha\Downloads\JavaWebDev\ecommerce\target\classes started by micha in C:\Users\micha\Downloads\JavaWebDev\ecommerce)
+2021-01-10 13:09:48.532  INFO 7400 --- [main] c.u.j.c.ecommerce.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2021-01-10 13:09:50.261  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:09:50.409  INFO 7400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 4 JPA repository interfaces.
+2021-01-10 13:09:51.375  INFO 7400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-10 13:09:51.412  INFO 7400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-10 13:09:51.413  INFO 7400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-10 13:09:51.762  INFO 7400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:09:51.763  INFO 7400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3135 ms
+2021-01-10 13:09:52.093  INFO 7400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:09:52.186  INFO 7400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:09:54.745  INFO 7400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:09:54.933  INFO 7400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:09:55.145  INFO 7400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:09:55.181  INFO 7400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-01-10 13:09:56.615  INFO 7400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:09:56.632  INFO 7400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:09:57.525  WARN 7400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:09:58.076  INFO 7400 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67fd2e17, org.springframework.security.web.context.SecurityContextPersistenceFilter@541897c6, org.springframework.security.web.header.HeaderWriterFilter@13c81bc5, org.springframework.web.filter.CorsFilter@65a2e14e, org.springframework.security.web.authentication.logout.LogoutFilter@5111f814, com.udacity.jwdnd.course4.ecommerce.security.JWTAuthenticationFilter@5e9f1a4c, com.udacity.jwdnd.course4.ecommerce.security.JWTAuthenticationVerificationFilter@4bf89d3d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1826475, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@593f7d2e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@457b8fc3, org.springframework.security.web.session.SessionManagementFilter@8167f57, org.springframework.security.web.access.ExceptionTranslationFilter@4e4af370, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@48b9773b]
+2021-01-10 13:09:58.163  INFO 7400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:09:58.422  INFO 7400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-10 13:09:58.439  INFO 7400 --- [main] c.u.j.c.ecommerce.EcommerceApplication   : Started EcommerceApplication in 10.955 seconds (JVM running for 12.88)
+2021-01-10 13:10:18.555  INFO 7400 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:10:18.556  INFO 7400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:10:18.559  INFO 7400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-10 13:10:19.124  INFO 7400 --- [http-nio-8080-exec-1] c.u.j.c.ecommerce.service.UserService    : created user='Alex' with user_id=1
+2021-01-10 13:10:41.661  INFO 7400 --- [http-nio-8080-exec-4] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=1
+2021-01-10 13:10:46.397  INFO 7400 --- [http-nio-8080-exec-5] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=1
+2021-01-10 13:10:55.857  INFO 7400 --- [http-nio-8080-exec-6] c.u.j.c.ecommerce.service.CartService    : removed items from cart_id=1
+2021-01-10 13:10:56.786  INFO 7400 --- [http-nio-8080-exec-7] c.u.j.c.ecommerce.service.CartService    : removed items from cart_id=1
+2021-01-10 13:10:57.728  INFO 7400 --- [http-nio-8080-exec-8] c.u.j.c.ecommerce.service.CartService    : removed items from cart_id=1
+2021-01-10 13:11:06.832  INFO 7400 --- [http-nio-8080-exec-9] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=1
+2021-01-10 13:11:09.477  INFO 7400 --- [http-nio-8080-exec-10] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=2
+2021-01-10 13:18:45.369  INFO 7400 --- [http-nio-8080-exec-3] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=1
+2021-01-10 13:18:51.018  INFO 7400 --- [http-nio-8080-exec-4] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=3
+2021-01-10 13:19:06.010  INFO 7400 --- [http-nio-8080-exec-5] c.u.j.c.ecommerce.service.UserService    : created user='Bob' with user_id=2
+2021-01-10 13:19:36.665  INFO 7400 --- [http-nio-8080-exec-7] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=2
+2021-01-10 13:19:44.488  INFO 7400 --- [http-nio-8080-exec-8] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=4
+2021-01-10 13:19:53.192  INFO 7400 --- [http-nio-8080-exec-9] c.u.j.c.ecommerce.service.CartService    : removed items from cart_id=2
+2021-01-10 13:20:07.470  INFO 7400 --- [http-nio-8080-exec-10] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=2
+2021-01-10 13:20:12.260  INFO 7400 --- [http-nio-8080-exec-2] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=5
+2021-01-10 13:22:09.242  INFO 7400 --- [http-nio-8080-exec-5] c.u.j.c.ecommerce.service.UserService    : created user='Cloe' with user_id=3
+2021-01-10 13:22:32.377  INFO 7400 --- [http-nio-8080-exec-6] c.u.j.c.ecommerce.service.UserService    : created user='Danielle' with user_id=4
+2021-01-10 13:22:57.905  INFO 7400 --- [http-nio-8080-exec-8] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=4
+2021-01-10 13:23:02.700  INFO 7400 --- [http-nio-8080-exec-9] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=6
+2021-01-10 13:23:31.919  INFO 7400 --- [http-nio-8080-exec-1] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=3
+2021-01-10 13:23:36.377  INFO 7400 --- [http-nio-8080-exec-3] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=7
+2021-01-10 13:24:02.005  INFO 7400 --- [http-nio-8080-exec-5] c.u.j.c.ecommerce.service.CartService    : added items to cart_id=2
+2021-01-10 13:24:09.930  INFO 7400 --- [http-nio-8080-exec-6] c.u.j.c.ecommerce.service.OrderService   : submitted order_id=8
