@@ -14,10 +14,6 @@
     <name>ecommerce</name>
     <description>E-Commerce application with Spring Boot</description>
 
-    <properties>
-        <java.version>15</java.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
